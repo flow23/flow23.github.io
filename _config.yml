@@ -1,0 +1,20 @@
+# Site settings
+title: flow's blog
+email: florian.wallburg@web.de
+description: The life of a digital afficionado
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://flow23.github.io" # the base hostname & protocol for your site
+twitter_username: flow23
+github_username:  flow23
+flickr_username: flow_23
+paginate: 5
+
+include: ["_pages"]
+
+collections:
+  soccer-player-cards:
+
+gems: [jekyll-paginate, kramdown]
+
+# Build settings
+markdown: kramdown
